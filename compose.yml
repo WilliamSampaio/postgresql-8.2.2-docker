@@ -1,0 +1,7 @@
+services:
+  postgres:
+    container_name: postgres-8.2.2
+    build: .
+    ports:
+      - 6543:5432
+    restart: always
